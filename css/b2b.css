@@ -245,3 +245,34 @@ footer {
   bottom: 5px;
   right: 5px;
 }
+
+/* Clockdiv */
+
+#clockdiv{
+	font-family: san-serif;
+	color: #4C6A92;
+	display: inline-block;
+	font-weight: 200;
+	text-align: center;
+	font-size: 100px;
+}
+
+#clockdiv > div{
+	display: inline-block;
+	padding: 10px;
+	/* border-radius: 3px;*/
+	/* background: #00BF96; */
+}
+
+#clockdiv div > span{ 
+	display: inline-block;  
+	padding: 20px;
+	/* border-radius: 3px;
+	background: #00816A; */
+}
+
+.smalltext{
+	font-family: san-serif; 
+	padding-top: 5px;
+	font-size: 20px;
+}

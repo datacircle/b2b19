@@ -41,14 +41,33 @@
 
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <h1></h1>
-            <h3></h3>
-            <br>
         </div>
     </header>
 
     <section id="about" class="about">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                  <div id="clockdiv">
+                    <div>
+                      <span class="days"></span>
+                      <div class="smalltext">Days</div>
+                    </div>
+                    <div>
+                      <span class="hours"></span>
+                      <div class="smalltext">Hours</div>
+                    </div>
+                    <div>
+                      <span class="minutes"></span>
+                      <div class="smalltext">Minutes</div>
+                    </div>
+                    <div>
+                      <span class="seconds"></span>
+                      <div class="smalltext">Seconds</div>
+                    </div>
+                  </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>
@@ -130,10 +149,15 @@
                     โครงการ Franchise B2B รุ่น 19<br>
                     สนับสนุนโดยกรมพัฒนาธุรกิจการค้า กระทรวงพาณิชย์<br>
                     563 ถ.นนทบุรี ต.บางกระสอ <br>อ.เมือง จ.นนทบุรี 11000</p>
+                    <a target="_blank" href="http://www.dbd.go.th"><img class="img-portfolio img-responsive" src="img/dbd.jpg"/></a>
                 </div>
-                <div class="col-lg-12">
-                    <a href="#"><img class="img-portfolio img-responsive" src="img/dbd.jpg"/></a>
-                </div>
+                <!-- <div class="col-lg-12 text-center">
+                    <div class="col-sm-4 col-xs-6 text-center">
+                        <hr class="small">
+                        <h5>ออกแบบภาพโดย<br>บริษัท ไทยทีเชิ้ต จำกัด</h5>
+                        <a target="_blank" href="http://www.thai-t-shirt.com"><img class="img-portfolio img-responsive" src="p/3Tshirt.jpg"/></a>
+                    </div>
+                </div> -->
             </div>
         </div>
         <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
@@ -141,6 +165,7 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/clock.js"></script>
     <script>
     $("#menu-close").click(function(e) {
         e.preventDefault();
