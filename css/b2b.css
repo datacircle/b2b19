@@ -149,7 +149,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/b2b19_f1.jpg) no-repeat center center scroll;
+    background: url(../img/b2bhead.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -177,7 +177,7 @@ hr.small {
 .callout {
     display: table;
     width: 100%;
-    height: 400px;
+    height: 100%;
     color: #fff;
     background: url(../img/dbd_franchise.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -189,7 +189,8 @@ hr.small {
 /* Portfolio */
 
 .portfolio {
-    padding: 50px 0;
+	margin: 50px 0 100px 0;
+    /* padding: 50px 0; */
 }
 
 .portfolio-item {
@@ -198,6 +199,8 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+    padding: 5px 5px;
+    vertical-align: middle;
 }
 
 .img-portfolio:hover {
