@@ -7,6 +7,7 @@ body {
 }
 
 body {
+	color: #4C6A92;	
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -249,8 +250,6 @@ footer {
 /* Clockdiv */
 
 #clockdiv{
-	font-family: san-serif;
-	color: #4C6A92;
 	display: inline-block;
 	font-weight: 200;
 	text-align: center;
