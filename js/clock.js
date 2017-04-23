@@ -37,7 +37,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var countDownDate = new Date("April 26, 2017 00:00:00");
+var countDownDate = new Date("April 26, 2017 08:00:00");
 var now = new Date().getTime();
 var distance = countDownDate - now;
 
